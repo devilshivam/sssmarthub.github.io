@@ -1,0 +1,164 @@
+/* Reset Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic Styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+a {
+  color: rgb(37, 34, 207);
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Header Styles */
+header {
+  background-color: hsl(178, 94%, 34%);
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.logo a {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.menu ul {
+  display: flex;
+}
+
+.menu li {
+  margin-left: 20px;
+}
+
+.menu li:first-child {
+  margin-left: 0;
+}
+
+.menu a:hover {
+  color: #555;
+}
+
+.cart a {
+  font-weight: bold;
+}
+
+/* Hero Styles */
+.hero {
+  background-color: #eee;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.btn-shop-now {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 12px 30px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.btn-shop-now:hover {
+  background-color: #555;
+}
+
+/* Featured Products Styles */
+.featured-products {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+.featured-products h2 {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product {
+  width: 25%;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.product img {
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+.product h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.product-desc {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.product-price {
+  display: block;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.btn-add-to-cart {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.btn-add-to-cart:hover {
+  background-color: #555;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #eee;
+  border-top: 1px solid #ccc;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content p {
+  font-size: 14px;
+}
